@@ -1,0 +1,8 @@
+https://github.com/hannesdelbeke/unreal_qt
+https://github.com/leixingyu/unrealStylesheet
+
+# This code required PySide2 module which may need to be installed.
+# To install required modules open windows command prompt and enter:
+# pip install --target="Your-Unreal-project-path\Content\Python\Lib\site-packages" --no-user pyside2
+# pip install --target="Your-Unreal-project-path\Content\Python\Lib\site-packages" --no-user unreal-qt
+# python -m pip install --target="Your-Unreal-project-path\Content\Python\Lib\site-packages" --no-user unreal-stylesheet
