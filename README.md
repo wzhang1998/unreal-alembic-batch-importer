@@ -4,7 +4,7 @@ Using this plugin you can easily import multiple alembic simulations as geocache
 ![alembicbatchimporter](https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/a3a7487a-1bb5-4e9b-bdf9-11534ce89454)
 
 
-### Install 
+## Install 
 - Install required packages:
     - option 1：pip install the Python dependencies to `...\Your-Unreal-Project\Content\Python\Lib\site-packages` (you can use `--target` with pip install)
         - PySide2
@@ -13,12 +13,12 @@ Using this plugin you can easily import multiple alembic simulations as geocache
 - Copy the folder to your Unreal project's plugin folder `...\Your-Unreal-Project\Plugins\alembicBatchImporter`
 - Restart Unreal and Enable the plugin
 
-### Prerequisites
+## Prerequisites
 - In Unreal Editor, open `Edit - Plugins` window, enable `Alembic Importer` plugin
     ![alembicimporter](https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/92a92d42-4cf5-4613-9838-74c263707d02)
 - Add `...\Your-Unreal-Project\Content\Python\Lib\site-packages` to your editor python path, see [Unreal doc](https://docs.unrealengine.com/5.2/en-US/scripting-the-unreal-editor-using-python/#pythonpathsintheunrealeditor)
 
-### How to use?
+## How to use?
 - When the plugin enabled, a button will add to editor tool bar, press the button, and a window like this will show up.
 <img src="https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/a7459d59-9773-4916-9141-62187a03cbf9" ><br>
 <img src="https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/2c73e61a-43e8-4aaa-af25-77b843a50969" width='518'><br>
