@@ -17,10 +17,12 @@ Using this plugin you can easily import multiple alembic simulations as geocache
 - Add `...\Your-Unreal-Project\Content\Python\Lib\site-packages` to your editor python path, see [Unreal doc](https://docs.unrealengine.com/5.2/en-US/scripting-the-unreal-editor-using-python/#pythonpathsintheunrealeditor)
 
 ### How to use?
+- When the plugin enabled, a button will add to editor tool bar, press the button, and a window like this will show up.
+<img src="https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/a7459d59-9773-4916-9141-62187a03cbf9" ><br>
 <img src="https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/2c73e61a-43e8-4aaa-af25-77b843a50969" width='518'><br>
-- `Import Destination`: Type in your alembic geocache import destination, eg: `/Game/ABC`
-- `Transform from Houdini Space?`: Choose your import transform space, by default it sets to from Houdini space to Unreal space: scale=unreal.Vector(100, -100, 100), rotation=unreal.Vector(90, 0.0, 0.0)
-- `Select Files`: Choose your .abc file folder from the computer
+- `Import Destination`: Type in your alembic geocache import destination, eg: `/Game/ABC`.
+- `Transform from Houdini Space?`: Choose your import transform space, by default it sets to from Houdini space to Unreal space: scale=unreal.Vector(100, -100, 100), rotation=unreal.Vector(90, 0.0, 0.0).
+- `Select Files`: Choose your .abc file folder from the computer.
 - `Import All Alembics`: Import all at once!!
 
 
