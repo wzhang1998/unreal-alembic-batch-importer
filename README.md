@@ -4,7 +4,7 @@ Using this plugin you can easily import multiple alembic simulations as geocache
 
 
 ![alembicbatchimporter](https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/ed2cc24b-eb44-4425-867d-593eb66870de)
-<img src="https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/a3a7487a-1bb5-4e9b-bdf9-11534ce89454" width='691'><br>
+<img src="https://github.com/wzhang1998/unreal-alembic-batch-importer/assets/67906283/5bcb662f-4b6a-49b1-bd20-6e0625fa4ae2" width='691'><br>
 
 ## Install 
 - Install required packages:
