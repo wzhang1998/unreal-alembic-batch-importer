@@ -32,7 +32,6 @@ Using this plugin you can easily import multiple alembic simulations as geocache
 ## Tips
 - I used this script to change all geocaches' material
 ```python
-{
     def returnMaterialInformationSMC():
 
     levelActors = unreal.EditorActorSubsystem().get_all_level_actors()
@@ -56,7 +55,6 @@ Using this plugin you can easily import multiple alembic simulations as geocache
                 geometryCacheComponent.set_material(i, testMat)
 
     returnMaterialInformationSMC()
-}
 ```
 
 
