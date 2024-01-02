@@ -29,5 +29,35 @@ Using this plugin you can easily import multiple alembic simulations as geocache
 - `Select Files`: Choose your .abc file folder from the computer.
 - `Import All Alembics`: Import all at once!!
 
+## Tips
+- I used this script to change all geocaches' material
+```python
+{
+    def returnMaterialInformationSMC():
+
+    levelActors = unreal.EditorActorSubsystem().get_all_level_actors()
+    testMat = unreal.EditorAssetLibrary.find_asset_data('/Game/StarterContent/Materials/M_AssetPlatform.M_AssetPlatform').get_asset() # replace your material path
+
+    for levelActor in levelActors:
+        if (levelActor.get_class().get_name()) == 'GeometryCacheActor':
+            geometryCacheComponent = levelActor.geometry_cache_component
+
+            print(levelActor.get_name())
+            materials = geometryCacheComponent.get_materials()
+            for material in materials:
+                print(material.get_name())
+                try:
+                    for item in material.texture_parameter_values: print(item)
+                except:
+                    pass
+                print('_')
+
+            for i in range(geometryCacheComponent.get_num_materials()):
+                geometryCacheComponent.set_material(i, testMat)
+
+    returnMaterialInformationSMC()
+}
+```
+
 
 
